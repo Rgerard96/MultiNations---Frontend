@@ -1,0 +1,43 @@
+.filterbar,
+.filter-menu {
+  width: 200px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.filterbar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+}
+
+.filter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.filter i {
+  transition: all 200ms ease;
+}
+
+.filter-menu{
+  position: absolute;
+  top: 58px;
+  left: 0;
+  overflow: hidden;
+  transition: all 200ms ease;
+  padding-bottom: 5px;
+  z-index: 2;
+}
+
+.filter-menu ul {
+  list-style-type: none;
+}
+.filter-menu ul li{
+  margin-bottom: 10px;
+  cursor: pointer;
+}

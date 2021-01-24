@@ -1,0 +1,22 @@
+.navbar{
+  transition: all 200ms ease;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .container a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar .container div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar .container div p {
+  margin-left: 10px;
+}
